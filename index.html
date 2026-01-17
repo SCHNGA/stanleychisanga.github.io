@@ -1,51 +1,62 @@
-<!DOCTYPE html>
+      <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Stanley Chisanga | ICT Graduate</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- HEADER / HERO -->
-  <header class="hero">
+  <!-- Navigation -->
+  <header class="navbar">
     <div class="container">
-      <h1>Stanley Chisanga</h1>
-      <p class="subtitle">ICT Graduate | Web & Systems Developer</p>
-      <p class="intro">
-        I build practical, reliable digital systems with a focus on real-world impact,
-        both in healthcare and organizational environments.
-      </p>
-      <div class="buttons">
-        <a href="#contact" class="btn contact">Contact</a>
-        <a href="#projects" class="btn primary">View Projects</a>
-        <a href="https://github.com/schnga" class="btn secondary">GitHub</a>
-      </div>
+      <h1 class="logo">Stanley</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
   </header>
 
-  <!-- ABOUT -->
-  <section class="section">
+  <!-- Hero -->
+  <section class="hero">
     <div class="container">
-      <h2>About Me</h2>
+      <h2>Hello world!, I’m <span>Stanley Chisanga</span></h2>
       <p>
-        I am an ICT graduate from Chalimbana University with hands-on experience in
-        web-based systems development. I have completed internships in both
-        technology and healthcare environments, and I enjoy building solutions
-        that improve efficiency, data handling, and user experience.I am eager 
-        to contribute my skills in a professional environment while continuing 
-        to grow as a technology professional.
+        ICT Graduate, Web Developer & Educator & aspiring software developer focused on building practical digital
+        solutions for education, healthcare and more.
+      </p>
+      <p> Lets connect and make positive impact together!</p>
+      <div class="buttons">
+        <a href="#work" class="btn primary">View My Work</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h3>About Me</h3>
+      <p>
+        I am an ICT graduate from Chalimbana University with a strong interest in
+        web development and system design. I enjoy solving real-world problems
+        using technology, in education, healthcare and other sectors.
       </p>
       <p>
-        I am currently seeking a graduate trainee or entry-level ICT role where
-        I can contribute, learn, and grow professionally.
+        I am currently seeking internship, graduate trainee, or entry-level
+        opportunities where I can grow professionally while contributing
+        meaningful digital solutions.
       </p>
     </div>
   </section>
 
-  <!-- SKILLS -->
+  <!-- Skills -->
   <section class="section light">
     <div class="container">
       <h2>Skills</h2>
@@ -57,76 +68,173 @@
           <li>System Analysis & Design</li>
         </ul>
         <ul>
-          <li>Git & GitHub</li>
+          <li>GitHub</li>
           <li>Linux (Ubuntu), XAMPP</li>
           <li>Technical Documentation</li>
-          <li>Problem Solving</li>
+          <li></li>
+        </ul>
+        <ul>
+          <li>Web Development</li>
+          <li>Presentation Skills</li>
+          <li>Classroom Management</li>
+          <li>Health Information Technology</li>
+        </ul>
+        <ul>
+          <li>Communication</li>
+          <li>Teamwork</li>
+          <li>Adaptability</li>
+          <li>Critical Thinking</li>
         </ul>
       </div>
     </div>
-  </section>
 
-  <!-- PROJECTS -->
-  <section class="section" id="projects">
+  <!-- Education & Certifications -->
+<section id="education" class="section light">
+  <div class="container">
+    <h3>Education & Certifications</h3>
+
+    <div class="edu-item">
+      <h4>Bachelor of Information and Communication Technology (ICT) with Education</h4>
+      <p>Chalimbana University</p>
+      <span>Graduated: Dec, 2025</span>
+    </div>
+
+    <div class="edu-item">
+      <h4>Web Development Training</h4>
+      <p>Natech Training Institute</p>
+      <span>Short Course</span>
+    </div>
+
+     <div class="edu-item">
+      <h4>National Robotics & Artificial Intelligence Competition 2024</h4>
+      <p>Participant</p>
+      <span>STEM Education Event</span>
+    </div>
+
+    <div class="edu-item">
+      <h4>Google DevFest 2024</h4>
+      <p>Participant</p>
+      <span>Technology & Developer Community Event</span>
+    </div>
+
+    <div class="edu-item">
+      <h4>Tech Expo 2024</h4>
+      <p></p>
+      <span>Technology Event</span>
+    </div>
+
+
+  </div>
+</section>
+
+  <!-- Work -->
+  <section id="work" class="section">
     <div class="container">
-      <h2>Projects</h2>
+      <h3>Projects</h3>
 
-      <div class="project-card">
-        <h3>Smart Patient Referral & Appointment System</h3>
+      <div class="project">
+        <h4>Smart Patient Referral & Appointment System (Final year project)</h4>
         <p>
-          A web-based system designed to streamline patient referrals and
-          appointment scheduling between health facilities. The system improves
-          coordination, reduces delays, and ensures secure handling of patient data.
+          A web-based system designed to improve patient referrals and appointment
+          scheduling between health facilities.
         </p>
-        <p class="tech"><strong>Technologies:</strong> PHP, MySQL, HTML, CSS, JavaScript</p>
-        <a href=" " class="link">View on GitHub →</a>
+        <span><strong>Tech stack:</strong> HTML • CSS • JavaScript • PHP • MySQL</span>
+      </div>
+
+      <div class="project">
+        <h4>School Management System</h4>
+        <p>
+          A system for managing student records, staff data, and academic
+          information in schools.
+        </p>
+        <span><strong>Tech stack:</strong> HTML • CSS • PHP • MySQL</span>
+      </div>
+ 
+      <div class="project">
+        <h4>Personal Website</h4>
+        <p>
+          A space to showcase Myself, my skills, education, work, experiences and connect.
+        </p>
+        <span><strong>Tech stack:</strong> HTML • CSS • JavaScript</span>
       </div>
 
     </div>
   </section>
 
-  <!-- EXPERIENCE -->
-  <section class="section light">
-    <div class="container">
-      <h2>Experience</h2>
+  <!-- Experience -->
+  <section id="experience" class="section light">
+  <div class="container">
+    <h3>Experience</h3>
 
-      <div class="experience">
-        <h3>ICT Intern – Zamtouch Technologies</h3>
-        <p>
-          Assisted with system maintenance, web-based application tasks,
-          testing, and troubleshooting in a professional ICT environment.
-        </p>
-      </div>
-
-      <div class="experience">
-        <h3>ICT Attachment – Kanyama Level One Hospital</h3>
-        <p>
-          Supported ICT operations, system usage, and digital data handling
-          within a healthcare environment.
-        </p>
-      </div>
-
+    <div class="exp-item">
+      <h4>ICT Attachment</h4>
+      <p><strong>Kanyama Level One Hospital</strong></p>
+      <ul>
+        <li>Provided ICT support within a healthcare environment.</li>
+        <li>Assisted with data handling and basic system operations.</li>
+        <li>Gained exposure to healthcare information systems and digital workflows.</li>
+      </ul>
     </div>
-  </section>
 
-  <!-- CONTACT -->
-  <section class="section" id="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>
-        I am open to graduate trainee, internship, and entry-level ICT opportunities.
-      </p>
-      <p>
-        <strong>Email:</strong> <a href="mailto:stanleytheyself@email.com">stanleytheyself@email.com</a><br />
-        <strong>Phone:</strong> +260 970 198 961 <br />
-        <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/stanley-chisanga" target="_blank">linkedin.com/in/stanley-chisanga</a>
-      </p>
+    <div class="exp-item">
+      <h4>Teaching Practice – ICT</h4>
+      <p><strong>Secondary School (Teaching Practice)</strong></p>
+      <ul>
+        <li>Taught ICT concepts to secondary school students, focusing on basic computer skills and digital literacy.</li>
+        <li>Prepared lesson plans, assessments, and learning materials using digital tools.</li>
+        <li>Supported students in understanding practical ICT applications.</li>
+        <li>Developed communication, presentation, and classroom management skills.</li>
+      </ul>
     </div>
-  </section>
 
-  <!-- FOOTER -->
+    <div class="exp-item">
+      <h4>Internship Exposure</h4>
+      <p><strong>Zamtouch Technologies(Short Term)</strong></p>
+      <ul>
+        <li>Introduced to web development workflows and system design concepts.</li>
+      
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+  <div class="container contact-center">
+    <h3>Contact Me</h3>
+
+    <p class="contact-text">
+      I’m open to internship, graduate trainee, and entry-level & other work opportunities.
+      Feel free to reach out.
+    </p>
+
+    <div class="contact-buttons">
+      <a href="mailto:stanleytheyself@email.com" class="btn primary">
+        Email Me
+      </a>
+
+      <a href="https://wa.me/260970198961" target="_blank" class="btn whatsapp">
+        WhatsApp
+      </a>
+
+      <a href="https://linkedin.com/in/stanley-chisanga" target="_blank" class="btn secondary">
+        LinkedIn
+      </a>
+    </div>
+
+    <p class="contact-github">
+      GitHub: <a href="https://github.com/schnga" target="_blank">github.com/schnga</a>
+    </p>
+    <p class="contact-phone">
+      Phone: <a href="tel:+260970198961" target="_blank">+260 970 198 961</a>
+    </p>
+  </div>
+</section>
+
+  <!-- Footer -->
   <footer class="footer">
-    <p>© 2026 Stanley Chisanga</p>
+    <p>© 2026 Stanley Chisanga. All rights reserved.</p>
   </footer>
 
 </body>
